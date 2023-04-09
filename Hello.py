@@ -47,7 +47,18 @@ def calcular_longitud(cadena):
   
         
 
-
 print(calcular_longitud('Era se una vez en la mancha'))
 
 
+def vocal_meter(caracter):
+    if caracter in 'aeiouAEIOU':
+        return True
+    return False
+    
+print(vocal_meter('P'))
+
+
+def generar_n_caracteres(caracter,n):
+    return caracter * n
+
+print(generar_n_caracteres('j',17))
