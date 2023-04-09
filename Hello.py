@@ -38,3 +38,16 @@ def mayot_num_3(n1,n2,n3):
 print(mayot_num_3(67,97,46))
 
 
+def calcular_longitud(cadena):
+    counter = 0
+    for l in cadena:
+        if l != ' ':
+            counter += 1
+    return counter
+  
+        
+
+
+print(calcular_longitud('Era se una vez en la mancha'))
+
+
